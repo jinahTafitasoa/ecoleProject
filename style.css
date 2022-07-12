@@ -1,0 +1,149 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: calibri;
+}
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 5px solid #6f6f6f;
+}
+nav h1{
+	color: #717171;
+	font-size: 40px;
+	font-family: Bodonie MT;
+}
+nav .menu{
+	margin-top: 3px;
+	margin-left: 300px;
+}
+nav .menu a{
+	text-decoration: none;
+	color: #000;
+	margin-right: 10px;
+	border-bottom: 1px solid #000;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: url('img/guitariste.jpg');
+	background-size: cover;
+	color: #fff;
+	padding: 40px;
+}
+header h1{
+	font-family: arial, sans serif;
+	font-size: 50px;
+	font-family: algerian;
+}
+header h3{
+	margin-top: -20px;
+	font-size: 20px;
+	text-align: center;
+	border-bottom: 1px solid #fff;
+}
+header button{
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #000;
+	border: none;
+	font-size: 30px;
+	cursor: pointer;
+	font-family: Brush Script MT;
+}
+.main{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.main .content{
+		margin-right: 
+}
+.main .content .card{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.main .content .card .left{
+	flex: 0 0 30%;
+	padding: 20px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 20px;
+}
+
+.main .content .card.right{
+	flex: 0 0 60%;
+}
+.main .content .card .right img{
+	width: 300px;
+	height: 300px;
+	border-radius: 200px;
+}
+footer{
+	margin-top: 40px;
+	border-top: 5px solid #6f6f6f;
+	background: url('img/guitar.jpg');
+	color: #fff;
+	padding: 30px 100px;
+}
+footer h1{
+	border-bottom: 1px solid #fff;
+	width: 20%;
+	padding-bottom: 5px;
+	font-family: Bodonie MT;
+}
+footer .services{
+	margin-top: -10px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 100px;
+}
+footer .services .service{
+	margin-right: 30px;
+	padding: 10px;
+}
+footer .services .service p{
+	max-width: 300px;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+}
+footer a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+footer #contact{
+	color: #717171;
+}
+@media screen and (max-width: 680px){
+	nav .menu{
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+	.main .card{
+		margin: 10px;
+	}
+	.main .content .card .right img{
+		height: 200px;
+		width: 100%;
+		margin-top: 0px;
+	}
+	.main .content .card{
+		display: block;
+	}
+	footer{
+		padding: 20px;
+	}
+}
